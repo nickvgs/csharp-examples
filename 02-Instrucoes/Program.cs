@@ -167,5 +167,10 @@ namespace Instrucoes
                 w.WriteLine("Line 3");
             }
         }
+
+        static void Main(string[] args)
+        {
+            InstrucaoWhile(args);
+        }
     }
 }
