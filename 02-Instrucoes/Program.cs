@@ -168,9 +168,28 @@ namespace Instrucoes
             }
         }
 
+        static void InstrucaoDeRetorno(string[] args)
+        {
+            int numero = Convert.ToInt32(Console.ReadLine());
+            {
+                    {
+                        Console.WriteLine($"Você escreveu: {numero}");
+                    }  
+                        if (numero <= 4)
+                        {
+                            Console.WriteLine ("Você escreveu um número menor que 5");
+                        }               
+                        else
+                        {
+                            Console.WriteLine ("Você escreveu um número maior ou igual a 5 ");
+                        }
+            }
+          
+        }
+
         static void Main(string[] args)
         {
-            InstrucaoWhile(args);
+            InstrucaoReturn(args);
         }
     }
 }
