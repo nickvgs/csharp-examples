@@ -5,7 +5,7 @@ namespace Classes.Metodos
         static void Dividir(int x, int y, out int resultado, out int resto) 
         {
             resultado = x / y;
-            resto = x % y;
+            resto = x % y; //% retorna o resto de uma divisão 
         }
         
         public static void Dividir() 

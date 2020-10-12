@@ -1,6 +1,6 @@
 namespace Classes.Herança
 {
-    public class Ponto3D : Ponto
+    public class Ponto3D : Ponto //significa herança ":"
     {
         public int z;
         public Ponto3D(int x, int y, int z) : base(x, y)

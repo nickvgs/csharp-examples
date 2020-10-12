@@ -167,7 +167,6 @@ namespace Instrucoes
                 w.WriteLine("Line 3");
             }
         }
-
         static void InstrucaoDeRetorno(string[] args)
         {
             int numero = Convert.ToInt32(Console.ReadLine());
@@ -189,7 +188,7 @@ namespace Instrucoes
 
         static void Main(string[] args)
         {
-            InstrucaoReturn(args);
+            InstrucaoUsing(args);
         }
     }
 }
